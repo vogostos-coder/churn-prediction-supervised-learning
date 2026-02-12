@@ -1,5 +1,3 @@
-Perfecto. Te dejo un README profesional, claro y listo para pegar en GitHub. Está redactado con enfoque técnico–negocio, que es lo que te conviene posicionar en LinkedIn.
-
 Predicción de Churn Bancario – Aprendizaje Supervisado
 Descripción del proyecto
 
@@ -13,11 +11,11 @@ Objetivo de negocio
 
 Identificar clientes con alta probabilidad de abandono para:
 
-Reducir la pérdida de clientes
+1.-Reducir la pérdida de clientes
 
-Diseñar estrategias de retención
+2.-Diseñar estrategias de retención
 
-Optimizar decisiones comerciales basadas en riesgo
+3.-Optimizar decisiones comerciales basadas en riesgo
 
 Dado que la clase minoritaria (clientes que abandonan) es la más relevante desde el punto de vista estratégico, se priorizó la optimización del F1-score.
 
@@ -25,69 +23,69 @@ Dataset
 
 El dataset contiene información demográfica y financiera de clientes bancarios:
 
-CreditScore
+- CreditScore
 
-Geography
+- Geography
 
-Gender
+- Gender
 
-Age
+- Age
 
-Tenure
+- Tenure
 
-Balance
+- Balance
 
-NumOfProducts
+- NumOfProducts
 
-HasCrCard
+- HasCrCard
 
-IsActiveMember
+- IsActiveMember
 
-EstimatedSalary
+- EstimatedSalary
 
-Exited (variable objetivo)
+- Exited (variable objetivo)
 
 Se identificó un desequilibrio de clases significativo entre clientes que permanecen y clientes que abandonan.
 
-Metodología
+**Metodología**
 
-Limpieza y preparación de datos
+-- Limpieza y preparación de datos
 
-Eliminación de columnas no predictivas
+-- Eliminación de columnas no predictivas
 
-Imputación de valores faltantes
+-- Imputación de valores faltantes
 
-One-Hot Encoding
+-- One-Hot Encoding
 
-Escalado de variables numéricas
+-- Escalado de variables numéricas
 
-División del dataset
+-- División del dataset
 
-Entrenamiento
+-- Entrenamiento
 
-Validación
+-- Validación
 
-Prueba
+-- Prueba
 
-Uso de stratify para preservar proporción de clases
+-- Uso de stratify para preservar proporción de clases
 
-Modelos evaluados
+-- Modelos evaluados
 
-Regresión Logística
+-- Regresión Logística
 
-Random Forest
+-- Random Forest
 
 Técnicas para manejo de desbalance
 
-class_weight='balanced'
+-- class_weight='balanced'
 
-Upsampling de la clase minoritaria
+-- Upsampling de la clase minoritaria
 
-Ajuste de hiperparámetros
+-- Ajuste de hiperparámetros
 
-Evaluación por F1 y AUC-ROC
+-- Evaluación por F1 y AUC-ROC
 
-Resultados
+-- Resultados
 
 Mejor modelo en validación:
 
@@ -114,15 +112,15 @@ Random Forest mostró mejor desempeño que la Regresión Logística en este caso
 
 Tecnologías utilizadas
 
-Python
+1.- Python
 
-Pandas
+2.- Pandas
 
-NumPy
+3.- NumPy
 
-Scikit-learn
+4.- Scikit-learn
 
-Jupyter Notebook
+5.- Jupyter Notebook
 
 Próximos pasos
 
